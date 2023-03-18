@@ -2,7 +2,7 @@ package cobbler
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform/helper/schema"
 	cobbler "github.com/jtopjian/cobblerclient"

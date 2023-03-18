@@ -3,7 +3,7 @@ package cobbler
 import (
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"sync"
 
